@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alertas de Temporal – Estado de São Paulo</title>
+<style>
+:root{--bg:#f5f7fa;--card:#fff;--tx:#14202b;--mut:#5a6978;--bd:#dde3ea;--warn:#b45309;--warnbg:#fff4e0;--red:#b91c1c;--acc:#0b5cab;--ok:#166534;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e141a;--card:#17202a;--tx:#e8eef4;--mut:#9aabbb;--bd:#2a3744;--warn:#fbbf24;--warnbg:#2b2210;--red:#f87171;--acc:#6db3f2;--ok:#4ade80}}
+:root[data-theme="dark"]{--bg:#0e141a;--card:#17202a;--tx:#e8eef4;--mut:#9aabbb;--bd:#2a3744;--warn:#fbbf24;--warnbg:#2b2210;--red:#f87171;--acc:#6db3f2;--ok:#4ade80}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:860px;margin:0 auto;padding:20px 16px 40px}
+h1{font-size:1.6rem;margin:0 0 4px}h2{font-size:1.1rem;margin:28px 0 10px}
+.sub{color:var(--mut);margin:0 0 18px;font-size:.92rem}
+.banner{background:var(--warnbg);border:1px solid var(--warn);border-left:6px solid var(--warn);border-radius:10px;padding:16px}
+.banner .tag{display:inline-block;background:var(--warn);color:var(--bg);font-weight:700;font-size:.75rem;padding:2px 8px;border-radius:99px;letter-spacing:.04em}
+.banner h2{margin:8px 0 6px;font-size:1.25rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:14px}
+.card b{display:block;margin-bottom:4px}
+.day{border-left:4px solid var(--acc)}
+.tl{list-style:none;padding:0;margin:0}
+.tl li{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+.tl time{font-size:.8rem;color:var(--mut);display:block}
+.tl a{color:var(--acc);font-size:.85rem}
+ul.tips{padding-left:20px;margin:0}ul.tips li{margin:4px 0}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.cta div{flex:1 1 200px;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px;text-align:center}
+.cta strong{display:block;font-size:1.5rem;color:var(--red)}
+a{color:var(--acc)}
+.note{font-size:.82rem;color:var(--mut);margin-top:28px;border-top:1px solid var(--bd);padding-top:12px}
+.bar{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 0}
+.chip{font-size:.78rem;padding:2px 9px;border-radius:99px;border:1px solid var(--bd);background:var(--card)}
+.y{color:var(--warn)}.r{color:var(--red)}
+</style>
+</head>
+<body>
+<div class="w">
+  <h1>⛈️ Alertas de Temporal – Estado de São Paulo</h1>
+  <p class="sub">Resumo dos avisos da Defesa Civil de SP · Situação consultada em 14/10/2026</p>
+
+  <section class="banner" aria-label="Alerta vigente">
+    <span class="tag">ALERTA VIGENTE</span>
+    <h2>Chuvas fortes em todo o estado · 13 a 15 de outubro</h2>
+    <p style="margin:0">Tempo instável em todas as regiões, com possibilidade de temporais, granizo, raios e rajadas de vento. Como o solo já está saturado pelas chuvas da semana passada, aumenta o risco de alagamentos, enxurradas e elevação de rios e córregos, principalmente em áreas vulneráveis.</p>
+  </section>
+
+  <h2>Previsão por dia</h2>
+  <div class="grid">
+    <div class="card day"><b>Terça, 13/10</b>Maiores acumulados entre as regiões oeste e sul do estado.</div>
+    <div class="card day"><b>Quarta, 14/10 (hoje)</b>Chuva generalizada, que pode ser forte, principalmente nas regiões sul, centro e leste.</div>
+    <div class="card day"><b>Quinta, 15/10</b>Pancadas persistem em todo o estado, com volumes expressivos possíveis perto da divisa com Minas Gerais.</div>
+  </div>
+
+  <h2>📍 Santos e Baixada Santista</h2>
+  <div class="card" style="border-left:4px solid var(--warn)">
+    <b>Santos está dentro do alerta estadual de 13 a 15/10</b>
+    O aviso vale para todo o território paulista, incluindo o litoral. Não encontrei um boletim específico da Defesa Civil de Santos para esta semana, então confira o canal municipal abaixo para a situação do dia nos morros e na maré.
+    <div class="bar"><span class="chip">Risco: alagamentos e enxurradas</span><span class="chip">Atenção aos morros</span><span class="chip">Rajadas de vento</span></div>
+  </div>
+  <ul class="tl" style="margin-top:12px">
+    <li><time>04/10/2026</time><b>Alerta de chuva intensa, raios e vendavais na Baixada</b><br>Instabilidade no domingo de eleição, com mínima de 20 °C e máxima de 30 °C em Santos.<br><a href="https://vtvnews.com.br/baixada-santista/eleicao-defesa-civil-alerta-para-chuva-na-baixada-santista-b/" target="_blank" rel="noopener">VTV News</a></li>
+    <li><time>03/10/2026</time><b>Chuva persistente e instabilidade maior na terça (6)</b><br>A Defesa Civil de Santos indicou que a influência das instabilidades seria maior na terça-feira.<br><a href="https://santaportal.com.br/baixada/chuva-deve-continuar-na-baixada-no-fim-de-semana-e-instabilidade-aumenta-na-terca/" target="_blank" rel="noopener">Santa Portal</a></li>
+    <li><time>29/09 a 01/10/2026</time><b>Nova frente fria na Baixada Santista</b><br>Chuvas mais persistentes na quinta (1º), com risco de alagamentos, enxurradas e queda de galhos e árvores.<br><a href="https://santaportal.com.br/baixada/defesa-civil-alerta-para-chegada-de-nova-frente-fria/" target="_blank" rel="noopener">Santa Portal</a></li>
+  </ul>
+  <div class="cta" style="margin-top:12px">
+    <div><strong style="font-size:1.1rem">(13) 3208-1000</strong>Defesa Civil de Santos</div>
+    <div><strong style="font-size:1.1rem">199</strong>Defesa Civil estadual</div>
+    <div><strong style="font-size:1.1rem">193</strong>Bombeiros</div>
+  </div>
+
+  <h2>Últimos avisos no estado</h2>
+  <ul class="tl">
+    <li><time>13/10/2026</time><b>Renovado o alerta de chuvas fortes até quinta (15)</b><br>Aviso estendido para todo o território paulista.<br><a href="https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/defesa-civil-alerta-para-chuvas-fortes-no-estado-de-sp" target="_blank" rel="noopener">Agência Brasil</a></li>
+    <li><time>10 e 11/10/2026</time><b>Dezenas de alertas disparados por SMS e Cell Broadcast</b><br>Foram 24 avisos até as 17h30 de sábado (10) para Interior, Vale do Paraíba e Região Metropolitana, e 22 alertas meteorológicos até as 17h de domingo (11), incluindo chuva forte e granizo.<br><a href="https://www.dgabc.com.br/Noticia/4352190/defesa-civil-emitiu-24-alertas-de-chuva-em-regioes-de-sao-paulo" target="_blank" rel="noopener">DGABC</a></li>
+    <li><time>09/10/2026</time><b>Alerta amarelo para o fim de semana do feriado de 12/10</b><br>Previsão de pancadas de chuva no feriado prolongado.<br><a href="https://www.defesacivil.sp.gov.br/sec_defesa_civil" target="_blank" rel="noopener">Site da Defesa Civil SP</a></li>
+    <li><time>05/10/2026</time><b>Chuvas intensas e Gabinete de Crise acionado (terça, 6)</b><br>Mobilização do Gabinete de Crise para o dia mais crítico.<br><a href="https://www.defesacivil.sp.gov.br/sec_defesa_civil" target="_blank" rel="noopener">Site da Defesa Civil SP</a></li>
+  </ul>
+
+  <h2>O que fazer durante o temporal</h2>
+  <div class="card">
+    <ul class="tips">
+      <li>Não se abrigue debaixo de árvores.</li>
+      <li>Não estacione perto de placas ou estruturas metálicas.</li>
+      <li>Evite áreas alagadas, encostas e margens de córregos.</li>
+      <li>Recolha objetos soltos em quintais, sacadas e lajes.</li>
+      <li>Mantenha o celular carregado e acompanhe os comunicados oficiais.</li>
+    </ul>
+  </div>
+
+  <h2>Emergência e alertas no celular</h2>
+  <div class="cta">
+    <div><strong>199</strong>Defesa Civil</div>
+    <div><strong>193</strong>Bombeiros</div>
+    <div><strong>40199</strong>Envie o CEP por SMS (gratuito) para receber alertas da sua região</div>
+  </div>
+
+  <h2>Fontes oficiais</h2>
+  <div class="card">
+    <a href="https://www.defesacivil.sp.gov.br/sec_defesa_civil" target="_blank" rel="noopener">Defesa Civil do Estado de SP</a> ·
+    <a href="https://www.spsemprealerta.sp.gov.br/" target="_blank" rel="noopener">SP Sempre Alerta</a>
+  </div>
+
+  <p class="note">Esta página é um resumo estático, feito a partir de informações publicadas pela Defesa Civil de SP e pela imprensa em 14/10/2026. Não é um canal oficial e não se atualiza sozinha: em caso de risco, consulte sempre os links acima e ligue 199 ou 193.</p>
+</div>
+</body>
+</html>
